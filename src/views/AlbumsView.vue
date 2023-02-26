@@ -17,7 +17,7 @@ function handler(texte) {
         </v-container>
     </div>
 </template>
-  
+
 
   <style>
   @media (min-width: 1024px) {
