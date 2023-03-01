@@ -5,7 +5,7 @@ import SearchForm from '../components/SearchForm.vue'
 
 let motcle = ref("")  // donnée réactive
 function handler(texte) { // handler pour récupérer la valeur saisie dans le form
-    console.log(texte)
+    //console.log(texte)
     motcle.value = texte
 }
 </script>
