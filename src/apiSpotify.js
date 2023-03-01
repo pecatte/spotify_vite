@@ -5,7 +5,7 @@ export const nbResParPage = 20
 // -- url de recherche d'albums
 export const spotifyUrlSearchAlbum = `https://api.spotify.com/v1/search?type=album&market=FR&limit=${nbResParPage}&q=`;
 // -- token
-const token = "BQCnW6BvgHaFCdYUS_KRGsR4mvwJy0oJZ7nqh4tvTt0LiDQ-8Uh-zkpTY61rLvFroS47ndyRpbAXvf22HjES2MAGPs72IV3jDoARIMHUms7FuPYAwHoIfoy4Z_C9KYSyqvNhRb4ZIyu6pz0iuChlsdQh2Fxuyb2PpqXCazNTWU8"
+const token = "BQAVk_R80xZaplC5id30a4iQM2ia6NcUkhP7ujgYhJrp6MlC3-W0xaexQH0zpy1iZgKBJr0yeVPoUKXO1-QLe6fbSFbOcpFEErIBVfrkf6tCaWrf3qFy9Wwzgo6Aidq7f-X0lsu8AWbGB2rg8jI5RTU6ZcKolPhsG_vZ85fgUxU"
 // -- entête http pour envoyer le token au serveur
 export const headers = {
     "Content-Type": "application/json",
